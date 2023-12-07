@@ -1,0 +1,1997 @@
+fileFormatVersion: 2
+guid: 4433426188cfd644daf48b937deadfad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355e9eef0dcbb94db3ac556e508bd89
+      internalID: -1112944588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffc62a6c47f9d846b2fc1196c6c804c
+      internalID: 526972512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18cb8ec13e78ac46bb70778f1072de9
+      internalID: 1365527577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb647a779458654b8f57f6dcd7e6cc6
+      internalID: 1604324301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba951bf01535f94798aafbfded17d1a
+      internalID: -318239099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792fee9b7bec510459953f09b0eba730
+      internalID: -1255222354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7682e4720ca424f8304db50be764f5
+      internalID: -951582370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb56736c60832b540a1de9dce0529618
+      internalID: -2067260018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d30429f932144a864366bf0d7dfe1
+      internalID: -1638304416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e44a930ce417943be3c34d6ac4306f
+      internalID: 421036172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485c3175bdec49e43a74cd56ae2fc793
+      internalID: 138590314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf254dd310b46bc42985426891ed30a4
+      internalID: 1288506685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1352
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37e74109f94a1c4d93fef90f68b2aa4
+      internalID: 2084283864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e801562c91ae81f40966062dd6d26c6c
+      internalID: -119959750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcaaa9e51b91bb458e238610ee43cb6
+      internalID: -2041197092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7123b4b02e61b940914a92e5876a5da
+      internalID: 1709270306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4330dc2abe1ba04ba0ac886ba304fe1
+      internalID: 1848775996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58096bc21011df54db9ec5a9fd8e75ed
+      internalID: 679601030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b06f6048783a4e896f021de38531c
+      internalID: 902902425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d29620925600549852025943fb9051
+      internalID: -1401638668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_20
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c363a6b26eb69747a2a77e194464fd9
+      internalID: 1267207728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45afc282923724ba6109e96cbc5c99
+      internalID: -105390125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cb79e0df40daf4ebe7e8e42ac9a9b3
+      internalID: 1375960313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb3036419552c42b63e0270e8d994c
+      internalID: 1138034747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_24
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e94118470a70964c8e0f6e12a345b8a
+      internalID: -978348003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8015f3e976da248943b6c59eebe6e2
+      internalID: -1920673002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544108c2f81e7944f8f7ffaa225b31a9
+      internalID: -2079354169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f78165ba254f242888848f6bcaf8d6
+      internalID: -793320755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07141e453ede7c643be5352be8d65074
+      internalID: 285645498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c124d7c02146b46bde1b952bafca82
+      internalID: -356032437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a5134f27234c14383910f92f4aa5c3
+      internalID: -1010964206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991cc72ab4753a74d8661b9351f3be14
+      internalID: 1177832554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75331460cb1810c459df41a6aeb49c9b
+      internalID: 893472140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_33
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b56e173570c664ebcdce3adb4afc80
+      internalID: 1558342826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3cbfffc064e664e87f53ba8d9c1b3c
+      internalID: -1284380777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110edf3df860fa04e9f42f4bdf22cf43
+      internalID: 847164505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_36
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1f36bdb0c1e0847a210ec41f9b075b
+      internalID: 1327010865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_37
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7fba035cce4974489a11642539e396
+      internalID: 807796769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1096
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85ba3f612ef4de47876a12f99f08649
+      internalID: 1520972453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d88597e523b69c459323f284e5b0338
+      internalID: -1508124331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4116a0f4910da4aa97bef69499233f
+      internalID: 399170750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eb2745d97d6d34c9237a9071f70f2a
+      internalID: 1759921083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c3f3fe777233b4e9998eb371c96da8
+      internalID: -83137133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc25dfdb65e0aa478364a23d10b9e95
+      internalID: -990403808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac9e75e77148bb45af381b0ba5cb24d
+      internalID: -765067186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_45
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a607038cb3a9a24c958a8e7c6211f84
+      internalID: 167860008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_46
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff7ea8da47d594282a08d12478651c
+      internalID: 1847134245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b11690b175aece468f770ef04658adc
+      internalID: -1543538616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4655fedf99472fb44bf338adc2e5d2dd
+      internalID: -1333482539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e119143fefee4d9f93d879ae5046e
+      internalID: -847542165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1be54d35ff322d41bd58e88cccd8874
+      internalID: -2103115506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8711fd00e0a4448a57cbe4b234c9e3
+      internalID: -1720296597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4770c42a24cd3b409ce49a71418006f
+      internalID: -1683445447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6d3c21698cf8468f325654c0da609
+      internalID: -1201777783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 840
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fafc06a6cd1d24b81638de207a1677
+      internalID: 1168058364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_55
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 712
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e524cf94c1ade4e44bc168387c9fca35
+      internalID: -164085335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 712
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41e6085409a9ac48a555667a4aed84e
+      internalID: 199750001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 712
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85a5b73267267b48b6045d6c1b74369
+      internalID: 1433412503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_58
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 712
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c39de00d0669c64eb8ab123b54293e1
+      internalID: -2037851126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 712
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d479c6ad423de0488f1c182da7fde91
+      internalID: -115904801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 584
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72193142d0eb3d443bb019c03c5d2e25
+      internalID: 86326442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 584
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbea11a97d1be04682a819260b08203
+      internalID: -498138530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 584
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd78a83ecba5e3b428fabfaa30f3ca43
+      internalID: 295583150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 584
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f51bcd5fb0494fb7ff6e8cdfbe1a5
+      internalID: -1154442975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 584
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a6f730ba426ee4392c57063fc10757
+      internalID: 831684020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 456
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b366103595a148ad43fe10f651c96
+      internalID: 1101442419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 456
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d97ad49bc8346e4882e680bb46eaae6
+      internalID: 703160597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 456
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7dea28b68de6a4d960b8c4e6beff8d
+      internalID: -1661200715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_68
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 456
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8795937ca7af1bf4a9be2e7eeaf203c9
+      internalID: -254163890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_69
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 456
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da943b9d5ec7ed24b93c729fa8969c19
+      internalID: -1898482191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_70
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 328
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c4308a3a691ac4c81d5a1b9acb193c
+      internalID: 1223097203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_71
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 328
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c564a47c4c8ea7244a8766c697691786
+      internalID: 43307141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 328
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aa3061994440f439f5f7faaa2b17e7
+      internalID: -1269571188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_73
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 328
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0673c37f0f156f94485fcace0ea443da
+      internalID: -1016738908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_74
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 328
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0c06b1597d893488973e2ec1bcbe17
+      internalID: 1194999158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_75
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 200
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcae5837e755d34bad46b41ed92f9bc
+      internalID: -1283789803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 200
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139a429dbbd45274fb2304ef6d69da12
+      internalID: -929189845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_77
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 200
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a49ed3ca0befe4a8e37eb59c8172d0
+      internalID: 634551732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 200
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5099fdd2ab617542bd413a1246eb636
+      internalID: -1861568147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 200
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657c1354a95b0144ca56923136f00271
+      internalID: 1021896219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775e8eb3bd6384459608e8ea0557b23
+      internalID: -15109760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_81
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b1f64b0ddc159428879e112d127509
+      internalID: 192528918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_82
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa78d9711ec32740b69ae3298386149
+      internalID: 1596048405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbf86ec61932fd4583862f6691f6aaa
+      internalID: -450615404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleBrickBrigdel_84
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37ef94f03c8dbe46896449a65c8308f
+      internalID: 120959982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CastleBrickBrigdel_0: -1112944588
+      CastleBrickBrigdel_1: 526972512
+      CastleBrickBrigdel_10: 138590314
+      CastleBrickBrigdel_11: 1288506685
+      CastleBrickBrigdel_12: 2084283864
+      CastleBrickBrigdel_13: -119959750
+      CastleBrickBrigdel_14: -2041197092
+      CastleBrickBrigdel_15: 1709270306
+      CastleBrickBrigdel_16: 1848775996
+      CastleBrickBrigdel_17: 679601030
+      CastleBrickBrigdel_18: 902902425
+      CastleBrickBrigdel_19: -1401638668
+      CastleBrickBrigdel_2: 1365527577
+      CastleBrickBrigdel_20: 1267207728
+      CastleBrickBrigdel_21: -105390125
+      CastleBrickBrigdel_22: 1375960313
+      CastleBrickBrigdel_23: 1138034747
+      CastleBrickBrigdel_24: -978348003
+      CastleBrickBrigdel_25: -1920673002
+      CastleBrickBrigdel_26: -2079354169
+      CastleBrickBrigdel_27: -793320755
+      CastleBrickBrigdel_28: 285645498
+      CastleBrickBrigdel_29: -356032437
+      CastleBrickBrigdel_3: 1604324301
+      CastleBrickBrigdel_30: -1010964206
+      CastleBrickBrigdel_31: 1177832554
+      CastleBrickBrigdel_32: 893472140
+      CastleBrickBrigdel_33: 1558342826
+      CastleBrickBrigdel_34: -1284380777
+      CastleBrickBrigdel_35: 847164505
+      CastleBrickBrigdel_36: 1327010865
+      CastleBrickBrigdel_37: 807796769
+      CastleBrickBrigdel_38: 1520972453
+      CastleBrickBrigdel_39: -1508124331
+      CastleBrickBrigdel_4: -318239099
+      CastleBrickBrigdel_40: 399170750
+      CastleBrickBrigdel_41: 1759921083
+      CastleBrickBrigdel_42: -83137133
+      CastleBrickBrigdel_43: -990403808
+      CastleBrickBrigdel_44: -765067186
+      CastleBrickBrigdel_45: 167860008
+      CastleBrickBrigdel_46: 1847134245
+      CastleBrickBrigdel_47: -1543538616
+      CastleBrickBrigdel_48: -1333482539
+      CastleBrickBrigdel_49: -847542165
+      CastleBrickBrigdel_5: -1255222354
+      CastleBrickBrigdel_50: -2103115506
+      CastleBrickBrigdel_51: -1720296597
+      CastleBrickBrigdel_52: -1683445447
+      CastleBrickBrigdel_53: -1201777783
+      CastleBrickBrigdel_54: 1168058364
+      CastleBrickBrigdel_55: -164085335
+      CastleBrickBrigdel_56: 199750001
+      CastleBrickBrigdel_57: 1433412503
+      CastleBrickBrigdel_58: -2037851126
+      CastleBrickBrigdel_59: -115904801
+      CastleBrickBrigdel_6: -951582370
+      CastleBrickBrigdel_60: 86326442
+      CastleBrickBrigdel_61: -498138530
+      CastleBrickBrigdel_62: 295583150
+      CastleBrickBrigdel_63: -1154442975
+      CastleBrickBrigdel_64: 831684020
+      CastleBrickBrigdel_65: 1101442419
+      CastleBrickBrigdel_66: 703160597
+      CastleBrickBrigdel_67: -1661200715
+      CastleBrickBrigdel_68: -254163890
+      CastleBrickBrigdel_69: -1898482191
+      CastleBrickBrigdel_7: -2067260018
+      CastleBrickBrigdel_70: 1223097203
+      CastleBrickBrigdel_71: 43307141
+      CastleBrickBrigdel_72: -1269571188
+      CastleBrickBrigdel_73: -1016738908
+      CastleBrickBrigdel_74: 1194999158
+      CastleBrickBrigdel_75: -1283789803
+      CastleBrickBrigdel_76: -929189845
+      CastleBrickBrigdel_77: 634551732
+      CastleBrickBrigdel_78: -1861568147
+      CastleBrickBrigdel_79: 1021896219
+      CastleBrickBrigdel_8: -1638304416
+      CastleBrickBrigdel_80: -15109760
+      CastleBrickBrigdel_81: 192528918
+      CastleBrickBrigdel_82: 1596048405
+      CastleBrickBrigdel_83: -450615404
+      CastleBrickBrigdel_84: 120959982
+      CastleBrickBrigdel_9: 421036172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

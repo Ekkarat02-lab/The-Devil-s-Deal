@@ -1,0 +1,4153 @@
+fileFormatVersion: 2
+guid: f227258304eaabd4d8962490487aadc8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VillageHouse1_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2336
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77e63ec5666e7745a57734fbd44737e
+      internalID: 1497749805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2336
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63153c52b99f0834880024a766f64ec2
+      internalID: 315412531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_2
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2336
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bcdf009ac67f748a95a467715c8882
+      internalID: -1640473116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ab3382fba39b4ca90bb728635f216
+      internalID: 1329385010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59a8f16fb126a8409f85f2a50461791
+      internalID: 777144771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae2ebb919cb3fd40b89662da228e039
+      internalID: -2137200768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b294717c417b74ca34fde01117959c
+      internalID: -2016347245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_7
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6631ff81518d270449212e2698b23be1
+      internalID: -80551450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2c5b761c4c96144baa757c7ba0a32f
+      internalID: -1759068731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_9
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48606283de755aa46ad31e553b5fee8e
+      internalID: 1597212532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d698b3274f9938b4d9f2c6f33aa3867f
+      internalID: 833794391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_11
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56044a03a58c434b90e97336c7ca6cd
+      internalID: 1812269108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_12
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb98c504dbb56054d9098d4788acd8d4
+      internalID: -878326509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3472c058697164cbd20c78315a48e3
+      internalID: 1766087103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f027704d07c8a94fa489e8d9dd8e2a3
+      internalID: -685914883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c392c65d20d2824d8495ac5ddc5d646
+      internalID: 853385802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c90a1c669f2764fad9a5c49b55ea57
+      internalID: 1114299924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_17
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97355f873c9fb554f84d1856c8735961
+      internalID: 1374300449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb086f701e5fde4f9a4240c72d80396
+      internalID: -1053135478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_19
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a99bbe9ad1ba2d4b9d80221dec5db0d
+      internalID: 130740857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fd6657ab4467c4a8a3795e5fe85829
+      internalID: -391127743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_21
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7907342b9101149a58f2584dbb71f3
+      internalID: -792378305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_22
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2080
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27037ab148db2214ebf41bdf8f1914cb
+      internalID: -1658551216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2c1c84a00a4747b4d77e947a33113
+      internalID: 1266168728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3933cf21509cdda4081788e776d4f7b1
+      internalID: -1307188955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_25
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08bd7d37f3a9ab4fb42440e90144b01
+      internalID: -104683137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbc2192f9656d847813ccec81ec507c
+      internalID: -1983060121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e144d9e25a1c44a4783743115713391f
+      internalID: 1506062005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_28
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad14bbb9b095b01469910a9b920ae075
+      internalID: -246912610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_29
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5cc3c97393524fb212b2b6acb0764
+      internalID: -1280011073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6bac8b81042584a88122a4e53777d7
+      internalID: -32915820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_31
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ef5d7754c8634f905982b578f3347
+      internalID: -1934018772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_32
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1952
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25b6903e6495d043bdb692193c555e3
+      internalID: 1113519327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365038681ec0a084aac267c87d67087b
+      internalID: 1158883939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8b2d889669bd440864d10a465d63f4
+      internalID: -1576965265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d241919bfe97642aa75b3226f2d059
+      internalID: 1601805698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e6b09203d59f84eb0c41782f3bcd4d
+      internalID: 521014893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_37
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc1ea0d5ecd3d4bb3cfe0a45f5733e
+      internalID: -1160146272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ade6d30efc0ef4f954f9934cc47e54
+      internalID: 1245908466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e400d1d63d53f4b94868ff32c20a90
+      internalID: 1973090816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fbc2b92fedd21429cf7fa6464c2cf5
+      internalID: -1772813049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_41
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e74403259cc9f43a21314d0f7cb3ca
+      internalID: 1732340836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_42
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1824
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf144d845d509974cb2d54762ba44a16
+      internalID: -1070640361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732270261a60054d8f63861f14bc360
+      internalID: -583727539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac53c902258da4468a6b7867e068b8a
+      internalID: 281353998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_45
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eacd90b9714014bb42b063e2143a27
+      internalID: 1506441155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_46
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c4c7fe8f9a5849b8abb44f8e7d6a8
+      internalID: 1860469717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_47
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08fe956c564cb7409fa9cb49dc77dbf
+      internalID: -561446199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_48
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d543d06ac3cfac54caf9482338ff0eaf
+      internalID: 1974167178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_49
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebd2f31281de241914f868ae96cc1f
+      internalID: 1133348782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_50
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62735b257274a5448999e1a1d3f7c2b
+      internalID: -1056570941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_51
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8386cb5a13bb07046bf105a49b54f79d
+      internalID: 267252926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_52
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1696
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d96bad01027a4b408e3e7e4697da9d0
+      internalID: 1485879276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53959ffa040995e4189817f43b2786eb
+      internalID: 375519295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4726c0e1e565241408e29142d0be13c5
+      internalID: 605577031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb439ee2f0218f49a10f5870dcb070c
+      internalID: -1789371946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a120b4d57957f4d80dd4b9ebf6a138
+      internalID: -1397875738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0f13c266b2c6c469ffef2ac8470748
+      internalID: -1502130156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90298b5f9640f04a8da56ce3976c754
+      internalID: 759001937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f98ae076571149418641f730933d5ee
+      internalID: 1553878946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f846b487b15a4cb11d81d060af4e9
+      internalID: 399843562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_61
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98778a56c82954c899f774b199fcfc
+      internalID: 333735300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1568
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b572ee0917ec634ca7369b281d9deba
+      internalID: -1850466868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_63
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573a636e8eca15646b19bcba5208d789
+      internalID: 1509487858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc687c4f5e62ddd44b92842762af2b5a
+      internalID: -1947110216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_65
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba1cfa64de8ad4b99ed54fab5ddd2e
+      internalID: 836257191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_66
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cfa176fef1cd943ba74dccc5234905
+      internalID: 1518937335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_67
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e274860c5aeb7e47be3803ecd0ba0d4
+      internalID: -1720497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_68
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2ce2446adcbd44cab47e488e749932
+      internalID: -1690118076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_69
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc888e0361883fe4bb74a8115b8e0fec
+      internalID: 1110899091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_70
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bac878259f9884ca1dcd4155299cc3
+      internalID: 1617854853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_71
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0681b280fbc546c4ab6a8dee9c3cec48
+      internalID: 1171892636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_72
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1440
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd3860fadf96c74993ae9c543a05623
+      internalID: 1019138688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa65f9ab6c0ae41a1c8c38242e8a6c
+      internalID: -881020838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6265d8fbbc1a444b3e9749c5fa17fb
+      internalID: -806213437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_75
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3676eebfcd6a74ab81c1e19d0a4b60
+      internalID: 838232591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_76
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843dd2b0cbae6a14ca67de359b193c70
+      internalID: 929184817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_77
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c522aa65677120b4ab7ebad560c2566e
+      internalID: 876114574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_78
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b119877ed399140b84ea193500e252
+      internalID: -1993889811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_79
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef289900bd3f0fe4fb7315313f99e384
+      internalID: -719772131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_80
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67bd30deb459f942aba18a99bef82e7
+      internalID: 1028143387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_81
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a329534467af9fd47bec469bd18ed979
+      internalID: -817651782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_82
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c804bf45ceb1d1d4791f22c947c81b7c
+      internalID: -1508083313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_83
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46ff6e52523dc240ad03e3dab6f75de
+      internalID: -1036095862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_84
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f5d22201ee2724aaa3c9a6ecfee307
+      internalID: -363377614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_85
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29132a346cb3750428852be8e9673354
+      internalID: -1188095816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_86
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c5b65139bfde940a6ea3fae3986417
+      internalID: -386939434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_87
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03ab34456b0e5748a535f71a88df0b7
+      internalID: 762022169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_88
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0639a6720b3a8c46bfa15cfee6f13ce
+      internalID: -1431292848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_89
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e4a9fe9861c5c47b2ae67ad7d2cc30
+      internalID: -712308056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_90
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcef9b5b41dba2942a64cfbb5b513f25
+      internalID: 2062071946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_91
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e698e64dcbc63a44a59081f19558001
+      internalID: 733425968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_92
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cf9239109d53848b8d090c7e47d94f
+      internalID: -180214704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640a972ff521b9f40999de98d6504381
+      internalID: 1567167684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e6d1c50e02b424ca667b678efc78ba
+      internalID: -1843009502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_95
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1617528d66ab7d74e85ed6bbe77b9ef4
+      internalID: 989649011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_96
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b94182a59623f4693bf61d8cdce786
+      internalID: 1863309999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_97
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b65c7c3ea3db449955008fd51a70bc
+      internalID: -1006426021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_98
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547fe0f8bc48c84419f06c6380df0dbf
+      internalID: 988388927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_99
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f41091604f2ce4f8023cc732a3237c
+      internalID: 108341606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_100
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a8f05623538d4fadc542b6f67fb5f
+      internalID: -692207614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_101
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94c7f9ff1f3a94478362f347880ce9c
+      internalID: 1851775383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_102
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e33450dcc806434cb252e9f4e2338b4
+      internalID: 1461020463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_103
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271735e848164144ca3a4e1dd1e36a59
+      internalID: -422123377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_104
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4d9c0f437047343ae58457d8b7549d
+      internalID: 1892097108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_105
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f032054ce55e4c43b577dcf6848146b
+      internalID: -801835155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_106
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc104e2c5ca4a384fb266fcaf6aa3bad
+      internalID: -512624366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_107
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcdd3398bf1c545aa8e56c339f3309
+      internalID: 1945495573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_108
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734c851024de4b43a5fdfb32c66fe4a
+      internalID: -1914859962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_109
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bff5d8d583b56d47bff4719d0755675
+      internalID: -434614551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_110
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2ed8ef35b39e3449d47eda7fdef6ee
+      internalID: 116632799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_111
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de918c095e9fed4418e9ce1f75995a01
+      internalID: 1768597262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_112
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a247b521171087241bc946f586532b4c
+      internalID: 1651442726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f003fadf71641ce4a89ff1f807b1a4da
+      internalID: 1340532230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_114
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d862c896b5897489cb81b22566cab3
+      internalID: 154895149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_115
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb00f5b61a644b42819686d87a82ff7
+      internalID: 1232090754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_116
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de9923e8ae21604d88749f4e96d0ad5
+      internalID: 1526400999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_117
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a0b554718441948a4a7b9ba1b2825c
+      internalID: 1526318431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_118
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289804ffedc0664abcbe012966c86d5
+      internalID: 1054318307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_119
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5d158e08009164aba146814720e7e1
+      internalID: 352270996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_120
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb6666b175887945a1860689f488619
+      internalID: 1446144054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_121
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb664ec574a5f94390838132172208d
+      internalID: -1498892545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_122
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d73c10847c535458df334a44497969
+      internalID: -502222057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_123
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404f533a3f5836143bd692ed37f33044
+      internalID: -1188458629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1070935310c21044af4d874a9054376
+      internalID: 1970528532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_125
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d235f359e40254d8af84fa520f419d
+      internalID: -398693452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_126
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6356007919baa064d886dcee1ce9b309
+      internalID: 1685987159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_127
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed860049f26b30a49be5600db5a23c90
+      internalID: 1651083047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_128
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c683169c2e0734e9e06850196fec3a
+      internalID: 674551442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_129
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b72ddb589c4734ea093ecbcd82a7ce
+      internalID: 2059210413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_130
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3324b6c2bbf79de46b982c0cac87f649
+      internalID: -229178296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_131
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7586dbe842b95054ea1b2e95a326bbbf
+      internalID: 1815392627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_132
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb5ec08114539b4ab1cc87fda98392e
+      internalID: 1573147560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc616d66a3c694b8256983f4dd7a9c
+      internalID: 639606107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc2f1d8f6025114b895b9353883ddd4
+      internalID: -689904311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_135
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e643a377154ab349b9cda5672711d98
+      internalID: 1711219046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_136
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41aacd4cb3e2a547a6842ff8b437b2a
+      internalID: -290071015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_137
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2a863c33b599c46a39ef284e3cceb7
+      internalID: 1361752463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_138
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f9db3b95a55b42b4f24995ee976d3
+      internalID: -752020836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_139
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa506457749433940932dc1125dd10be
+      internalID: 1513952303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_140
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c9b89fe790cf42b904b2af663584f
+      internalID: 949574786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_141
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ec6856d53f2984b8ca06e05b3d2c5b
+      internalID: 1687177104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_142
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306ed645571ec74da4d31b237b89929
+      internalID: 1818078614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41326d7637572054db293b5423a9456a
+      internalID: -440600948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_144
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f427c0eefddbf9b488b4b3985709cdc8
+      internalID: -1040752735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_145
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb136d0cceb3624290cfb73e88d8bbd
+      internalID: -1554499274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_146
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd942b142032d44b9cfbc02c5531a7
+      internalID: 2022315663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_147
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519583e56eb17d341a338f6f85cd7550
+      internalID: -91023750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_148
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814fb2fa6b3f60458ffe1162231cad6
+      internalID: 2076386373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_149
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5771f2ce842257e49849f870e21f5fdb
+      internalID: 2124065490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_150
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5bc8f9128dfa342b3d0ff7c49d6e97
+      internalID: 1679053452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_151
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69060882c9ddc744fba34a17895b1278
+      internalID: 965369977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_152
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02334c6835479174ba2de865ecd24bc9
+      internalID: 760755074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_153
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6fad4338315f4fbbc71a5be7641f4
+      internalID: -497827387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_154
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb570b9fdcb14bb41a2d3c27a8f73d34
+      internalID: 416190588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_155
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab3d6b9bdc277458c0dfde3639f7fc
+      internalID: 443356587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_156
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a5ee752d580ad428ea427e5574b5ce
+      internalID: -1706995985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_157
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aaa4d84c8d73a47b12ba7158fd608d
+      internalID: 1255820644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_158
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0165b6766ed694f998dcabcde7b5fd
+      internalID: -1689260110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_159
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8cb25d6afe2745af9e76e4c5e9002
+      internalID: -1090061877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_160
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35b2c4247a331048af5781774b2f6b8
+      internalID: -599749270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_161
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33cfbb504f477c43ac32b319e2e1c02
+      internalID: 1537382396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_162
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ae5d0fe3e3099498cbe5393950cc85
+      internalID: 1316840326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_163
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278fa9704622a14429e65cd4df20f9e3
+      internalID: -343149431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_164
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d191c33e7919a429f48066ee3022c7
+      internalID: -363820253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_165
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d0c91e8984f9d45bf5300a6d200df1
+      internalID: -2038599593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_166
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710c7c760e4dba6428ff9796ec20453f
+      internalID: -609911001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_167
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf3e747041713b46a5a1d99fbf8e31b
+      internalID: -2093850248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_168
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4be8d448837f804ba09754d6e7816ac
+      internalID: 1057566479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_169
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a10c1965a1f8414d832483cbfecdb10
+      internalID: 363338352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_170
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bb750d4aa29764bad1781c092995bf
+      internalID: -63290679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_171
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0d7b443fbc4ce47876008c48881149
+      internalID: 1029163316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_172
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9013fd95313ccd143a2a58560bb11526
+      internalID: -1462630247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_173
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4887adc00fab44fb75b0a0608a7643
+      internalID: 434558901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_174
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277cabbac8db0d440ab8d9b59b289e9f
+      internalID: -246532369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_175
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3bbf091d464a045b356590586c165c
+      internalID: 830454257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_176
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d42d788ec9058d429f109fd6312e873
+      internalID: 194845706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_177
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2297cf1dc0f97db4d8ac064a800caa44
+      internalID: 1748553631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f35322d1ad6b745a8d0b030163e617
+      internalID: -832896946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_179
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36700e89bc0bb449e4a1809c83066b
+      internalID: 2024711078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_180
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713df180daed44740b548e3bc8bfd3ca
+      internalID: -2083923350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_181
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf7efb3fd16cc64e8f41e7453cd27ff
+      internalID: -36582556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillageHouse1_182
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0222b3c4dc100846b4f7540b076d9a7
+      internalID: -590282537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VillageHouse1_0: 1497749805
+      VillageHouse1_1: 315412531
+      VillageHouse1_10: 833794391
+      VillageHouse1_100: -692207614
+      VillageHouse1_101: 1851775383
+      VillageHouse1_102: 1461020463
+      VillageHouse1_103: -422123377
+      VillageHouse1_104: 1892097108
+      VillageHouse1_105: -801835155
+      VillageHouse1_106: -512624366
+      VillageHouse1_107: 1945495573
+      VillageHouse1_108: -1914859962
+      VillageHouse1_109: -434614551
+      VillageHouse1_11: 1812269108
+      VillageHouse1_110: 116632799
+      VillageHouse1_111: 1768597262
+      VillageHouse1_112: 1651442726
+      VillageHouse1_113: 1340532230
+      VillageHouse1_114: 154895149
+      VillageHouse1_115: 1232090754
+      VillageHouse1_116: 1526400999
+      VillageHouse1_117: 1526318431
+      VillageHouse1_118: 1054318307
+      VillageHouse1_119: 352270996
+      VillageHouse1_12: -878326509
+      VillageHouse1_120: 1446144054
+      VillageHouse1_121: -1498892545
+      VillageHouse1_122: -502222057
+      VillageHouse1_123: -1188458629
+      VillageHouse1_124: 1970528532
+      VillageHouse1_125: -398693452
+      VillageHouse1_126: 1685987159
+      VillageHouse1_127: 1651083047
+      VillageHouse1_128: 674551442
+      VillageHouse1_129: 2059210413
+      VillageHouse1_13: 1766087103
+      VillageHouse1_130: -229178296
+      VillageHouse1_131: 1815392627
+      VillageHouse1_132: 1573147560
+      VillageHouse1_133: 639606107
+      VillageHouse1_134: -689904311
+      VillageHouse1_135: 1711219046
+      VillageHouse1_136: -290071015
+      VillageHouse1_137: 1361752463
+      VillageHouse1_138: -752020836
+      VillageHouse1_139: 1513952303
+      VillageHouse1_14: -685914883
+      VillageHouse1_140: 949574786
+      VillageHouse1_141: 1687177104
+      VillageHouse1_142: 1818078614
+      VillageHouse1_143: -440600948
+      VillageHouse1_144: -1040752735
+      VillageHouse1_145: -1554499274
+      VillageHouse1_146: 2022315663
+      VillageHouse1_147: -91023750
+      VillageHouse1_148: 2076386373
+      VillageHouse1_149: 2124065490
+      VillageHouse1_15: 853385802
+      VillageHouse1_150: 1679053452
+      VillageHouse1_151: 965369977
+      VillageHouse1_152: 760755074
+      VillageHouse1_153: -497827387
+      VillageHouse1_154: 416190588
+      VillageHouse1_155: 443356587
+      VillageHouse1_156: -1706995985
+      VillageHouse1_157: 1255820644
+      VillageHouse1_158: -1689260110
+      VillageHouse1_159: -1090061877
+      VillageHouse1_16: 1114299924
+      VillageHouse1_160: -599749270
+      VillageHouse1_161: 1537382396
+      VillageHouse1_162: 1316840326
+      VillageHouse1_163: -343149431
+      VillageHouse1_164: -363820253
+      VillageHouse1_165: -2038599593
+      VillageHouse1_166: -609911001
+      VillageHouse1_167: -2093850248
+      VillageHouse1_168: 1057566479
+      VillageHouse1_169: 363338352
+      VillageHouse1_17: 1374300449
+      VillageHouse1_170: -63290679
+      VillageHouse1_171: 1029163316
+      VillageHouse1_172: -1462630247
+      VillageHouse1_173: 434558901
+      VillageHouse1_174: -246532369
+      VillageHouse1_175: 830454257
+      VillageHouse1_176: 194845706
+      VillageHouse1_177: 1748553631
+      VillageHouse1_178: -832896946
+      VillageHouse1_179: 2024711078
+      VillageHouse1_18: -1053135478
+      VillageHouse1_180: -2083923350
+      VillageHouse1_181: -36582556
+      VillageHouse1_182: -590282537
+      VillageHouse1_19: 130740857
+      VillageHouse1_2: -1640473116
+      VillageHouse1_20: -391127743
+      VillageHouse1_21: -792378305
+      VillageHouse1_22: -1658551216
+      VillageHouse1_23: 1266168728
+      VillageHouse1_24: -1307188955
+      VillageHouse1_25: -104683137
+      VillageHouse1_26: -1983060121
+      VillageHouse1_27: 1506062005
+      VillageHouse1_28: -246912610
+      VillageHouse1_29: -1280011073
+      VillageHouse1_3: 1329385010
+      VillageHouse1_30: -32915820
+      VillageHouse1_31: -1934018772
+      VillageHouse1_32: 1113519327
+      VillageHouse1_33: 1158883939
+      VillageHouse1_34: -1576965265
+      VillageHouse1_35: 1601805698
+      VillageHouse1_36: 521014893
+      VillageHouse1_37: -1160146272
+      VillageHouse1_38: 1245908466
+      VillageHouse1_39: 1973090816
+      VillageHouse1_4: 777144771
+      VillageHouse1_40: -1772813049
+      VillageHouse1_41: 1732340836
+      VillageHouse1_42: -1070640361
+      VillageHouse1_43: -583727539
+      VillageHouse1_44: 281353998
+      VillageHouse1_45: 1506441155
+      VillageHouse1_46: 1860469717
+      VillageHouse1_47: -561446199
+      VillageHouse1_48: 1974167178
+      VillageHouse1_49: 1133348782
+      VillageHouse1_5: -2137200768
+      VillageHouse1_50: -1056570941
+      VillageHouse1_51: 267252926
+      VillageHouse1_52: 1485879276
+      VillageHouse1_53: 375519295
+      VillageHouse1_54: 605577031
+      VillageHouse1_55: -1789371946
+      VillageHouse1_56: -1397875738
+      VillageHouse1_57: -1502130156
+      VillageHouse1_58: 759001937
+      VillageHouse1_59: 1553878946
+      VillageHouse1_6: -2016347245
+      VillageHouse1_60: 399843562
+      VillageHouse1_61: 333735300
+      VillageHouse1_62: -1850466868
+      VillageHouse1_63: 1509487858
+      VillageHouse1_64: -1947110216
+      VillageHouse1_65: 836257191
+      VillageHouse1_66: 1518937335
+      VillageHouse1_67: -1720497
+      VillageHouse1_68: -1690118076
+      VillageHouse1_69: 1110899091
+      VillageHouse1_7: -80551450
+      VillageHouse1_70: 1617854853
+      VillageHouse1_71: 1171892636
+      VillageHouse1_72: 1019138688
+      VillageHouse1_73: -881020838
+      VillageHouse1_74: -806213437
+      VillageHouse1_75: 838232591
+      VillageHouse1_76: 929184817
+      VillageHouse1_77: 876114574
+      VillageHouse1_78: -1993889811
+      VillageHouse1_79: -719772131
+      VillageHouse1_8: -1759068731
+      VillageHouse1_80: 1028143387
+      VillageHouse1_81: -817651782
+      VillageHouse1_82: -1508083313
+      VillageHouse1_83: -1036095862
+      VillageHouse1_84: -363377614
+      VillageHouse1_85: -1188095816
+      VillageHouse1_86: -386939434
+      VillageHouse1_87: 762022169
+      VillageHouse1_88: -1431292848
+      VillageHouse1_89: -712308056
+      VillageHouse1_9: 1597212532
+      VillageHouse1_90: 2062071946
+      VillageHouse1_91: 733425968
+      VillageHouse1_92: -180214704
+      VillageHouse1_93: 1567167684
+      VillageHouse1_94: -1843009502
+      VillageHouse1_95: 989649011
+      VillageHouse1_96: 1863309999
+      VillageHouse1_97: -1006426021
+      VillageHouse1_98: 988388927
+      VillageHouse1_99: 108341606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

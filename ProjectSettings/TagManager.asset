@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - weaponA
+  - Health
+  - Weak Point
+  - health
+  - DeathZone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Interactable
+  - Enemies
+  - Test
+  - Player
+  - Ground
+  - OneWayPlatform
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundBack
+    uniqueID: 2768896695
+    locked: 0
+  - name: ObjBack
+    uniqueID: 3904384363
+    locked: 0
+  - name: Player
+    uniqueID: 864992639
+    locked: 0
+  - name: Enemy
+    uniqueID: 1116341427
+    locked: 0
+  - name: Item
+    uniqueID: 1611355575
+    locked: 0
+  - name: ObjFront
+    uniqueID: 2919112541
+    locked: 0
+  - name: GrounfFront
+    uniqueID: 1164746525
+    locked: 0
+  - name: Floor
+    uniqueID: 132002479
+    locked: 0
