@@ -130,7 +130,14 @@ namespace Script.player
         {
             // ลดสุขภาพตามความเสียหายที่ระบุ
             currentHealth = Mathf.Max(0, currentHealth - (int)damage);
+
+            // เรียกใช้ AddExperience เพื่อเพิ่มประสบการณ์ (experience)
+            ExperienceManager.Instance?.AddExperience((int)damage);
+    
+            // อัปเดตข้อมูล UI
+            UpdateHealthText();
         }
+
 
         public void AddCurrency(CurrencyPickup currency)
         {
