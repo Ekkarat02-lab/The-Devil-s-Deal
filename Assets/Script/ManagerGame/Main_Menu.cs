@@ -5,8 +5,10 @@ namespace Script.NextScenes
 {
     public class Main_Menu : MonoBehaviour
     {
-        public GameObject mainmenu;
-        [SerializeField] private GameObject option;        public void PlayGame()
+        [SerializeField] private GameObject mainmenu;
+        
+        [SerializeField] private GameObject option;
+        public void PlayGame()
         {
             SceneManager.LoadSceneAsync(1);
         }
