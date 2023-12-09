@@ -927,9 +927,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1200170028575877394, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 458
+      objectReference: {fileID: 0}
     - target: {fileID: 1506972719564322210, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149329303406889263, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -155
       objectReference: {fileID: 0}
     - target: {fileID: 6529316267442212614, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_AnchorMax.x
@@ -942,6 +950,10 @@ PrefabInstance:
     - target: {fileID: 6529316267442212614, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748076382889866037, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191
       objectReference: {fileID: 0}
     - target: {fileID: 8205617835421159593, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_Pivot.x
@@ -1028,6 +1040,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+--- !u!114 &261638948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 25716550739823236, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+  m_PrefabInstance: {fileID: 261638947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &262803045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3426925704435001206, guid: c8ad212e97452ca489ccf57016d77a9f, type: 3}
@@ -2134,6 +2157,10 @@ PrefabInstance:
       propertyPath: levelText
       value: 
       objectReference: {fileID: 531524671}
+    - target: {fileID: 5875348210206316150, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: experienceText
+      value: 
+      objectReference: {fileID: 261638948}
     - target: {fileID: 7238058938813170670, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_Name
       value: Player

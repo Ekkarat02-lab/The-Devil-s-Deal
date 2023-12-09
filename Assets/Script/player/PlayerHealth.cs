@@ -7,20 +7,20 @@ namespace Script.player
 {
     public class PlayerHealth : MonoBehaviour
     {
-        public static PlayerHealth instance;
+        public static PlayerHealth instance;  // ตัวแปรสำหรับเก็บอินสแตนซ์เดียวของคลาส
 
         private Animator animator;
 
-        [Header("Enemy Damage")]
+        [Header("ความเสียหายจากศัตรู")]
         public float minDamageInEnemy = 10.0f;
         public float maxDamageInEnemy = 20.0f;
 
-        [Header("Player Health")]
+        [Header("สุขภาพของผู้เล่น")]
         public int initialHealth = 100;
-        public Text healthText; // Canvas Text
+        public Text healthText;  // ข้อความบน Canvas
         public Slider healthSlider;
 
-        [Header("COINS AND GEMS")]
+        [Header("เหรียญและเพชร")]
         public int coins;
         public int gems;
 
@@ -28,15 +28,15 @@ namespace Script.player
         public Text gemsValue;
 
         private int currentHealth;
-        public static PlayerHealth playerHealth;
+        public static PlayerHealth playerHealth;  // ตัวแปรที่ไม่ได้ใช้ อาจจะลบได้
 
-        [Header("GameOver")]
+        [Header("เกมโอเวอร์")]
         public GameOver gameOverManager;
         private static readonly int Death = Animator.StringToHash("Death");
 
         private void Awake()
         {
-            instance = this;
+            instance = this;  // กำหนดค่าให้กับตัวแปรอินสแตนซ์
             coins = 0;
         }
 
@@ -138,7 +138,6 @@ namespace Script.player
             UpdateHealthText();
         }
 
-
         public void AddCurrency(CurrencyPickup currency)
         {
             // เพิ่มค่าเงินหรือเพชรตามประเภทของออบเจกต์ที่รับ
@@ -154,5 +153,16 @@ namespace Script.player
             }
         }
 
+        public void LevelUp()
+        {
+            // เพิ่มค่าสุขภาพเมื่อ Level Up
+            initialHealth += 50;
+            currentHealth = initialHealth;
+
+            // อัปเดต UI สุขภาพ
+            healthSlider.maxValue = initialHealth;
+            healthSlider.value = initialHealth;
+            UpdateHealthText();
+        }
     }
 }

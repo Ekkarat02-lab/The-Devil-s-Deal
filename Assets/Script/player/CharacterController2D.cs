@@ -93,21 +93,7 @@ namespace Script.player
             // หากตัวละครยืนอยู่บนพื้นหรือสามารถควบคุมอากาศได้
             if (grounded || airControl)
             {
-                // หากตัวละครย่อตัว
-                /*if (crouch)
-                {
-                    move *= crouchSpeed;
-
-                    // ปิดการใช้งาน Collider ที่กำหนดไว้เมื่อตัวละครย่อตัว
-                    if (crouchDisableCollider != null)
-                        crouchDisableCollider.enabled = false;
-                }
-                else
-                {
-                    // เปิดการใช้งาน Collider ที่กำหนดไว้เมื่อตัวละครยืน
-                    if (crouchDisableCollider != null)
-                        crouchDisableCollider.enabled = true;
-                }*/
+                
 
                 // กำหนดความเร็วที่ตัวละครจะเคลื่อนที่
                 Vector3 targetVelocity = new Vector2(move * 10f, rigidbody2D.velocity.y);

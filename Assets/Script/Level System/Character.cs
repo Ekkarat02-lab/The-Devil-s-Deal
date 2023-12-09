@@ -1,105 +1,124 @@
+// สคริปต์ Character จัดการเกี่ยวกับระบบเลเวล, ประสบการณ์, และเส้นชีวิตของผู้เล่น.
+
+// Import namespace ที่จำเป็นของ Unity และสคริปต์
 using UnityEngine;
 using UnityEngine.UI;
+using Script.player; // Import สคริปต์ PlayerHealth.
 
 namespace Script.Level_System
 {
     public class Character : MonoBehaviour
     {
+        // อ้างอิงไปยัง UI elements.
+        public Text experienceText;
         public Text levelText;
 
-        [SerializeField] private int currentHealth, maxHealth, currentExperience, 
+        // ตัวแปรสำหรับเส้นชีวิตและประสบการณ์.
+        [SerializeField] private int currentHealth, maxHealth, currentExperience,
             maxExperience, currentLevel;
 
         private void Start()
         {
-            // กำหนด Level เริ่มต้นที่นี่ (ตัวอย่างเช่น Level 1)
-            currentLevel = 1;
-
-            // ตรวจสอบให้แน่ใจว่า ExperienceManager.Instance ไม่เป็น null
+            // ตรวจสอบและสร้าง instance ของ ExperienceManager หากยังไม่มี.
+            // นี้จะให้การติดตามประสบการณ์ของผู้เล่น
             if (ExperienceManager.Instance == null)
             {
-                Debug.LogError("ExperienceManager.Instance is null. Creating a new instance.");
+                Debug.LogWarning("ExperienceManager.Instance is null. Creating a new instance.");
                 GameObject experienceManagerObject = new GameObject("ExperienceManager");
                 experienceManagerObject.AddComponent<ExperienceManager>();
             }
 
-            // ตรวจสอบให้แน่ใจว่า levelText ถูกกำหนดให้ชี้ไปที่ Text UI ที่ถูกต้อง
-            if (levelText != null)
+            // ตรวจสอบว่า UI elements ถูกกำหนดหรือไม่.
+            if (levelText != null && experienceText != null)
             {
-                levelText.text = "LEVEL : " + currentLevel;
+                currentExperience = 0; // ตั้งค่าประสบการณ์เริ่มต้น
+                UpdateUI();
             }
             else
             {
-                Debug.LogError("Please assign the 'levelText' reference in the inspector.");
+                Debug.LogError("Please assign the 'levelText' and 'experienceText' references in the inspector.");
             }
 
-            // ตรวจสอบให้แน่ใจว่า ExperienceManager.Instance ไม่เป็น null อีกครั้ง
+            // ให้แน่ใจว่า ExperienceManager.Instance ไม่เป็น null
+            // ลงทะเบียนเพื่อรับ event การเปลี่ยนแปลงประสบการณ์
             if (ExperienceManager.Instance != null)
             {
                 ExperienceManager.Instance.OnExperienceChange += HandleExperienceChange;
             }
         }
+
+        // จัดการกับการเปลี่ยนแปลงในประสบการณ์
         private void HandleExperienceChange(int newExperience)
         {
             currentExperience += newExperience;
-            Debug.Log($"Current XP : {currentExperience}");
 
+            // เลเวลอัพเกรดหากประสบการณ์ปัจจุบันเกินประสบการณ์สูงสุด
             if (currentExperience >= maxExperience)
             {
                 LevelUp();
             }
+
+            UpdateUI(); // อัพเดท UI ทันทีที่มีการเปลี่ยนแปลง
         }
 
+        // เลเวลอัพเกรด
         private void LevelUp()
         {
             currentLevel++;
             Debug.Log("Level up! Current level: " + currentLevel);
 
-            // อัพเดท Text UI ที่แสดง Level
-            if (levelText != null)
-            {
-                levelText.text = "LEVEL : " + currentLevel;
-            }
+            UpdateUI();
 
             maxHealth += 10;
             currentHealth = maxHealth;
 
             currentExperience = 0;
-            // ปรับให้ maxExperience เพิ่มขึ้นตามความต้องการ
-            maxExperience += 100/* Your desired value */;
+            maxExperience += 100; // ปรับ maxExperience ตามต้องการ
+
+            // เรียกใช้ LevelUp() ใน PlayerHealth
+            PlayerHealth.instance.LevelUp();
+
+            // เรียกใช้ LevelUp() ใน Attack script
+            Attack AttackScript = GetComponent<Attack>();
+            if (AttackScript != null)
+            {
+                AttackScript.LevelUp();
+            }
         }
 
+        // เมื่อเปิดใช้งาน script และลงทะเบียนเพื่อรับ event OnExperienceChange
         private void OnEnable()
         {
-            // ตรวจสอบให้แน่ใจว่า ExperienceManager.Instance ไม่เป็น null
+            if (ExperienceManager.Instance == null)
+            {
+                Debug.LogWarning("ExperienceManager.Instance is null. Creating a new instance.");
+                GameObject experienceManagerObject = new GameObject("ExperienceManager");
+                experienceManagerObject.AddComponent<ExperienceManager>();
+            }
+
             if (ExperienceManager.Instance != null)
             {
                 ExperienceManager.Instance.OnExperienceChange += HandleExperienceChange;
             }
-            else
-            {
-                Debug.LogError("ExperienceManager.Instance is null. Creating a new instance.");
-                GameObject experienceManagerObject = new GameObject("ExperienceManager");
-                experienceManagerObject.AddComponent<ExperienceManager>();
-            }
         }
 
+        // เมื่อปิดใช้งาน script และยกเลิกการลงทะเบียนจาก event OnExperienceChange
         private void OnDisable()
         {
-            // ตรวจสอบให้แน่ใจว่า ExperienceManager.Instance ไม่เป็น null
             if (ExperienceManager.Instance != null)
             {
                 ExperienceManager.Instance.OnExperienceChange -= HandleExperienceChange;
             }
         }
+
+        // อัพเดท UI elements
         private void UpdateUI()
         {
-            // ตรวจสอบให้แน่ใจว่า levelText ถูกกำหนดให้ชี้ไปที่ Text UI ที่ถูกต้อง
-            if (levelText != null)
+            if (levelText != null && experienceText != null)
             {
                 levelText.text = "LEVEL : " + currentLevel;
+                experienceText.text = "EXP : " + currentExperience + " / " + maxExperience;
             }
         }
     }
 }
-

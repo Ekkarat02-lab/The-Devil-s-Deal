@@ -1,22 +1,29 @@
+// สคริปต์ Attack ควบคุมกลไกการโจมตีของผู้เล่น.
+
+// Import namespace ที่จำเป็นของ Unity และสคริปต์
 using System.Collections;
 using Script.PlayerAttack;
 using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    // ตัวแปรสาธารณะสำหรับควบคุมพารามิเตอร์การโจมตี
-    public float minDamage;
-    public float maxDamage;
+    // คุณสมบัติสาธารณะสำหรับควบคุมพารามิเตอร์การโจมตี
+    public float MinDamage { get { return minDamage; } }
+    public float MaxDamage { get { return maxDamage; } }
     public float fireRate = 0.2f;
 
     // ตัวแปรส่วนตัวสำหรับการจัดการเวลาการโจมตีและแอนิเมชัน
     private float nextFireRate = 0.0f;
     private Animator animator;
 
-    // การอ้างอิงถึงออบเจกต์ที่แทนพื้นที่ที่โดนโจมตี
+    // การอ้างอิงถึงออบเจกต์พื้นที่ที่โดนโจมตี
     public GameObject hitArea;
-    
+
     public AudioSource swordSound;
+
+    // คุณสมบัติ minDamage และ maxDamage
+    public float minDamage = 0.0f;
+    public float maxDamage = 0.0f;
 
     // เมื่อสคริปต์เริ่มต้นการทำงาน
     private void Start()
@@ -44,7 +51,6 @@ public class Attack : MonoBehaviour
             // เริ่มแอนิเมชันการโจมตี
             SetAttackAnimation(true);
             swordSound.Play();
-            
 
             // ทำการโจมตีและตั้งค่าความเสียหายสุ่มให้กับพื้นที่ที่โดนโจมตี
             AttackHitArea();
@@ -78,5 +84,12 @@ public class Attack : MonoBehaviour
 
         // สร้างออบเจกต์พื้นที่ที่โดนโจมตีที่ตำแหน่งและหมุนของผู้เล่น
         Instantiate(hitArea, transform.position, transform.rotation);
+    }
+
+    // เมธอดที่ใช้ในการเพิ่มความเสียหายเมื่อ Level Up
+    public void LevelUp()
+    {
+        minDamage += 10;
+        maxDamage += 10;
     }
 }
