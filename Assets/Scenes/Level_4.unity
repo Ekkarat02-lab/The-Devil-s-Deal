@@ -836,11 +836,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c377b447d4178c04d9a6456e02fe938d, type: 3}
+<<<<<<< Updated upstream
 --- !u!4 &136874488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3426925704435001206, guid: c8ad212e97452ca489ccf57016d77a9f, type: 3}
   m_PrefabInstance: {fileID: 2020116287}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!114 &131764743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 25716550739823236, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+  m_PrefabInstance: {fileID: 1538065353}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1001 &141255165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4209,6 +4223,10 @@ PrefabInstance:
       propertyPath: maxExperience
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 5875348210206316150, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: experienceText
+      value: 
+      objectReference: {fileID: 131764743}
     - target: {fileID: 7238058938813170670, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -23982,6 +24000,18 @@ PrefabInstance:
     - target: {fileID: 6529316267442212614, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524799427278140796, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 7748076382889866037, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 278.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748076382889866037, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 157.25
       objectReference: {fileID: 0}
     - target: {fileID: 8205617835421159593, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_Pivot.x
