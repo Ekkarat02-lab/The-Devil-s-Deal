@@ -8,6 +8,7 @@ namespace Script.player
     public class PlayerHealth : MonoBehaviour
     {
         public static PlayerHealth instance;  // ตัวแปรสำหรับเก็บอินสแตนซ์เดียวของคลาส
+        
 
         private Animator animator;
 

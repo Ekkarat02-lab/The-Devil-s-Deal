@@ -199,7 +199,6 @@ MonoBehaviour:
   maxhealth: 50
   healthBar: {fileID: 4482338799081693578}
   healthBarSlider: {fileID: 7911106490622685567}
-  lootDrop: {fileID: 586673390833744745, guid: 8f91a5dca656e414aa92da98c3d9b98b, type: 3}
 --- !u!114 &3058749455200776779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 10
-  playertransform: {fileID: 0}
+  playertransform: {fileID: 8639681547057748017, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
   isChasing: 0
   chaseDistance: 6
 --- !u!1001 &2552717371093320745

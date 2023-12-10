@@ -198,10 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxhealth: 100
+  maxhealth: 500
   healthBar: {fileID: 7425519046970154634}
   healthBarSlider: {fileID: 3814878912763170431}
-  lootDrop: {fileID: 586673390833744745, guid: 8f91a5dca656e414aa92da98c3d9b98b, type: 3}
 --- !u!114 &1525282748258038295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 20
-  playertransform: {fileID: 0}
+  playertransform: {fileID: 8639681547057748017, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
   isChasing: 1
   chaseDistance: 6
 --- !u!114 &4961655031962260115
@@ -231,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270f5f288dbb63541a5809ae48626c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 8639681547057748017, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
   shootingRange: 15
   bulletPrefab: {fileID: 1140369101322439686, guid: 8560253b18b6c6d4bb0c02aa145ca60e, type: 3}
   shootInterval: 1
