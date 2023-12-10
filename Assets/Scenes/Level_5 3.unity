@@ -30793,10 +30793,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7524799427278140796, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
     - target: {fileID: 8205617835421159593, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -30963,10 +30959,6 @@ PrefabInstance:
       propertyPath: levelText
       value: 
       objectReference: {fileID: 652906004}
-    - target: {fileID: 5875348210206316150, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
-      propertyPath: experienceText
-      value: 
-      objectReference: {fileID: 1470548523}
     - target: {fileID: 7238058938813170670, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -31499,7 +31491,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.53, y: -32, z: -5}
+  m_LocalPosition: {x: -44.298347, y: -32, z: -5}
   m_LocalScale: {x: 0.8553034, y: 0.8553034, z: 0.8553034}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33411,17 +33403,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1470548523 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 25716550739823236, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
-  m_PrefabInstance: {fileID: 229815458}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1470846228
 PrefabInstance:
   m_ObjectHideFlags: 0
