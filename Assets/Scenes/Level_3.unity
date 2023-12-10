@@ -858,6 +858,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7524799427278140796, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 7748076382889866037, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -191
@@ -2074,7 +2078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8639681547057748017, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 306.8
+      value: -54.3
       objectReference: {fileID: 0}
     - target: {fileID: 8639681547057748017, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4224,6 +4228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackSlug
       objectReference: {fileID: 0}
+    - target: {fileID: 3058749455200776779, guid: c8ad212e97452ca489ccf57016d77a9f, type: 3}
+      propertyPath: playertransform
+      value: 
+      objectReference: {fileID: 496525432}
     - target: {fileID: 3426925704435001206, guid: c8ad212e97452ca489ccf57016d77a9f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4041587
@@ -93097,6 +93105,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 496525432}
+    - target: {fileID: 3133826114984951054, guid: fdb701f890254e94db54db0ca39e79bb, type: 3}
+      propertyPath: maxhealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 3366908533772379928, guid: fdb701f890254e94db54db0ca39e79bb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
