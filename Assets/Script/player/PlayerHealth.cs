@@ -75,12 +75,8 @@ namespace Script.player
             animator.SetTrigger("Death");
             deathAnimationPlayed = true;
 
-            // ปิดการควบคุมผู้เล่นหรือลบ component ที่เกี่ยวข้องตามความต้องการ
-            GetComponent<PlayerMovement>().enabled = false;
-            GetComponent<Attack>().enabled = false;
-
-            // รอ 0.5 วินาที ก่อนที่จะทำลาย GameObject
-            StartCoroutine(WaitAndDestroy(0.5f));
+            // รอ 1 วินาที ก่อนที่จะทำลาย GameObject
+            StartCoroutine(WaitAndDestroy(1f));
         }
 
         private IEnumerator WaitAndDestroy(float waitTime)
