@@ -124,14 +124,26 @@ namespace Script.player
 
         private void TakeDamage(float damage)
         {
-            // ลดสุขภาพตามความเสียหายที่ระบุ
-            currentHealth = Mathf.Max(0, currentHealth - (int)damage);
+            // ตรวจสอบว่า player ยังมีชีวิต
+            if (currentHealth > 0)
+            {
+                // ลดสุขภาพตามความเสียหายที่ระบุ
+                currentHealth = Mathf.Max(0, currentHealth - (int)damage);
 
-            // เรียกใช้ AddExperience เพื่อเพิ่มประสบการณ์ (experience)
-            ExperienceManager.Instance?.AddExperience((int)damage);
-    
-            // อัปเดตข้อมูล UI
-            UpdateHealthText();
+                // ตรวจสอบว่า player ยังมีชีวิต
+                if (currentHealth > 0)
+                {
+                    // อัปเดตข้อมูล UI
+                    UpdateHealthText();
+                }
+                else
+                {
+                    // เรียกใช้ AddExperience เพื่อเพิ่มประสบการณ์ (experience)
+                    ExperienceManager.Instance?.AddExperience((int)damage);
+                    // ทำลาย player หรือทำการ Game Over ตามที่คุณต้องการ
+                    // ...
+                }
+            }
         }
 
         public void AddCurrency(CurrencyPickup currency)

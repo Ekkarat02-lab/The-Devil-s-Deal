@@ -31,4 +31,5 @@ public class ExperienceManager : MonoBehaviour
         // เรียก Event และส่งค่าประสบการณ์ที่เพิ่มเข้าไป
         OnExperienceChange?.Invoke(amount);
     }
+    
 }

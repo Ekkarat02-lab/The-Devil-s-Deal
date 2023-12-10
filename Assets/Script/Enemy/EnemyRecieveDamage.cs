@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Script.player;
 
 namespace Script.Enemy
 {
@@ -45,8 +46,16 @@ namespace Script.Enemy
         {
             if (health <= 0)
             {
-                ExperienceManager.Instance.AddExperience(expAmount);
-                Destroy(gameObject);
+                // ตรวจสอบว่า player ยังมีชีวิต
+                PlayerHealth playerHealth = PlayerHealth.instance;
+                if (playerHealth != null)
+                {
+                    // เพิ่มประสบการณ์ให้ player เมื่อ enemy ตาย
+                    ExperienceManager.Instance.AddExperience(expAmount);
+
+                    // ทำลาย enemy
+                    Destroy(gameObject);
+                }
             }
         }
 
