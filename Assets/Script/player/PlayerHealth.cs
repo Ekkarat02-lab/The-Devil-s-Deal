@@ -60,6 +60,7 @@ namespace Script.player
             if (currentHealth <= 0 && !deathAnimationPlayed)
             {
                 currentHealth = 0;
+                Debug.Log($"{currentHealth}");
                 DestroyPlayer();
                 gameOverManager.gameOver();
             }
