@@ -3,7 +3,8 @@
 // Import namespace ที่จำเป็นของ Unity และสคริปต์
 using UnityEngine;
 using UnityEngine.UI;
-using Script.player; // Import สคริปต์ PlayerHealth.
+using Script.player;
+using Script.PlayerAttack; // Import สคริปต์ PlayerHealth.
 
 namespace Script.Level_System
 {

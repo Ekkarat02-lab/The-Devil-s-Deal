@@ -1,4 +1,5 @@
 using System.Collections;
+using Script.ManagerGame;
 using Script.PlayerAttack;
 using UnityEngine;
 using UnityEngine.UI;

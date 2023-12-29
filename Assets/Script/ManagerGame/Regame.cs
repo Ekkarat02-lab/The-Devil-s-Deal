@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Script.NextScenes
+namespace Script.ManagerGame
 {
     public class Regame : MonoBehaviour
     {
