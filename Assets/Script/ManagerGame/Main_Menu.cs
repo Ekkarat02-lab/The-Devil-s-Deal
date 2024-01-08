@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Script.NextScenes
+namespace Script.ManagerGame
 {
-    public class Main_Menu : MonoBehaviour
+    public class MainMenu : MonoBehaviour
     {
         [SerializeField] private GameObject mainmenu;
         
