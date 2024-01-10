@@ -13,16 +13,16 @@ namespace Script.player
 
         private Animator animator;
 
-        [Header("ความเสียหายจากศัตรู")]
+        [Header("Attack For Enemy")]
         public float minDamageInEnemy = 10.0f;
         public float maxDamageInEnemy = 20.0f;
 
-        [Header("สุขภาพของผู้เล่น")]
+        [Header("Health")]
         public int initialHealth = 100;
         public Text healthText;  // ข้อความบน Canvas
         public Slider healthSlider;
 
-        [Header("เหรียญและเพชร")]
+        [Header("Coin And Gem")]
         public int coins;
         public int gems;
 
@@ -32,7 +32,7 @@ namespace Script.player
         private int currentHealth;
         public static PlayerHealth playerHealth;  // ตัวแปรที่ไม่ได้ใช้ อาจจะลบได้
 
-        [Header("เกมโอเวอร์")]
+        [Header("GameOver")]
         public GameOver gameOverManager;
         private static readonly int Death = Animator.StringToHash("Death");
 
