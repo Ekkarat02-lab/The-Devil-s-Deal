@@ -3,7 +3,8 @@ using UnityEngine;
 public class MonsterMovement : MonoBehaviour
 {
     public float speed = 0.8f;
-    public float range = 3;
+    public float range = 3f;
+    public float detectionRadius = 5f; // Radius for detecting the player
 
     private float startingX;
     private int dir = 1;
@@ -12,9 +13,8 @@ public class MonsterMovement : MonoBehaviour
     private Vector3 originalScale;
     private Vector3 flippedScale;
 
-    public Transform playertransform;
-    public bool isChasing;
-    public float chaseDistance;
+    private Transform playerTransform;
+    private bool isChasing;
 
     // Animator
     private Animator animator;
@@ -26,55 +26,77 @@ public class MonsterMovement : MonoBehaviour
         originalScale = transform.localScale;
         flippedScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
 
-        // รับค่า Animator component จาก GameObject
+        // Get Animator component from GameObject
         animator = GetComponent<Animator>();
 
-        isChasing = false;  // เพิ่มบรรทัดนี้เพื่อให้ isChasing เป็น false เมื่อเริ่มต้น
+        isChasing = false;
     }
 
     private void FixedUpdate()
     {
-        if (playertransform != null)
+        DetectPlayer();
+
+        if (isChasing && playerTransform != null)
         {
-            if (isChasing)
+            ChasePlayer();
+        }
+        else
+        {
+            Patrol();
+        }
+    }
+
+    private void DetectPlayer()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
+
+        foreach (var hit in hits)
+        {
+            if (hit.CompareTag("Player"))
             {
-                if (transform.position.x > playertransform.position.x)
-                {
-                    Flip(1);
-                    transform.position += Vector3.left * speed * Time.deltaTime;
-                }
-                if (transform.position.x < playertransform.position.x)
-                {
-                    Flip(-1);
-                    transform.position += Vector3.right * speed * Time.deltaTime;
-                }
-
-                // เล่น animation ในสถานะการตามหาผู้เล่น
-                animator.SetFloat(Speed, 1f);
+                playerTransform = hit.transform;
+                isChasing = true;
+                return;
             }
-            else
-            {
-                if (Vector2.Distance(transform.position, playertransform.position) < chaseDistance)
-                {
-                    isChasing = true;
-                }
-                else
-                {
-                    isChasing = false;
-                    animator.SetFloat(Speed, 0f);
-                }
+        }
 
-                transform.Translate(Vector2.left * speed * Time.deltaTime * dir);
+        // If no player found within detection radius, stop chasing
+        playerTransform = null;
+        isChasing = false;
+    }
 
-                if (transform.position.x < startingX - range)
-                {
-                    ChangeDirection(-1);
-                }
-                else if (transform.position.x > startingX + range)
-                {
-                    ChangeDirection(1);
-                }
-            }
+    private void ChasePlayer()
+    {
+        if (playerTransform == null) return;
+
+        if (transform.position.x > playerTransform.position.x)
+        {
+            Flip(1);
+            transform.position += Vector3.left * speed * Time.deltaTime;
+        }
+        else if (transform.position.x < playerTransform.position.x)
+        {
+            Flip(-1);
+            transform.position += Vector3.right * speed * Time.deltaTime;
+        }
+
+        // Play chase animation
+        animator.SetFloat(Speed, 1f);
+    }
+
+    private void Patrol()
+    {
+        animator.SetFloat(Speed, 0f);
+
+        transform.Translate(Vector2.left * speed * Time.deltaTime * dir);
+
+        if (transform.position.x < startingX - range)
+        {
+            ChangeDirection(-1);
+        }
+        else if (transform.position.x > startingX + range)
+        {
+            ChangeDirection(1);
         }
     }
 
@@ -87,5 +109,12 @@ public class MonsterMovement : MonoBehaviour
     private void Flip(int flipValue)
     {
         transform.localScale = flipValue == 1 ? originalScale : flippedScale;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Draw the detection radius in the Scene view for debugging
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
 }

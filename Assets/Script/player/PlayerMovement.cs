@@ -1,48 +1,65 @@
+using Script.player;
 using UnityEngine;
 
-namespace Script.player
+namespace Script.Player
 {
-    public class PlayerMovement : MonoBehaviour {
-
+    public class PlayerMovement : MonoBehaviour
+    {
         public CharacterController2D controller;
-
         public float runSpeed = 40f;
-
-        float horizontalMove = 0f;
-        bool jump = false;
-        bool crouch = false;
-
         public Animator animator;
+
+        private float horizontalMove = 0f;
+        private bool jump = false;
+        private bool crouch = false;
 
         private void Start()
         {
-            // กำหนด animator จาก GameObject นี้
-            animator = this.gameObject.GetComponent<Animator>();
+            animator = GetComponent<Animator>();
         }
 
-        // Update is called once per frame
-        void Update()
+        private void Update()
         {
-            // ตั้งค่า Animator สำหรับ Grounded (อยู่บนพื้น) และ Speed (ความเร็วในแนวนอน)
-            animator.SetBool("Grounded", true); // จุดตรวจสอบ Grounded
-            animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal"))); // เคลื่อนที่ตำแหน่ง Animation
+            HandleMovementInput();
+            HandleJumpInput();
+            UpdateAnimator();
+        }
 
-            // หมุนฉันทำการเคลื่อนที่ไปทางซ้ายหรือขวาและตั้งค่าความเร็ว
+        private void FixedUpdate()
+        {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+            jump = false;
+        }
+
+        private void HandleMovementInput()
+        {
+            horizontalMove = Input.GetAxis("Horizontal") * runSpeed;
+
             if (Input.GetAxis("Horizontal") < -0.1f)
             {
-                transform.Translate(Vector2.right * runSpeed * Time.deltaTime);
-                transform.eulerAngles = new Vector2(0, 180);
+                MoveLeft();
             }
             else if (Input.GetAxis("Horizontal") > 0.1f)
             {
-                transform.Translate(Vector2.right * runSpeed * Time.deltaTime);
-                transform.eulerAngles = new Vector2(0, 0);
+                MoveRight();
             }
+        }
 
-            // ตรวจสอบการกดปุ่ม Jump และตั้งค่า Animator สำหรับการกระโดด
+        private void HandleJumpInput()
+        {
             if (Input.GetButtonDown("Jump"))
             {
                 jump = true;
+            }
+        }
+
+        private void UpdateAnimator()
+        {
+            animator.SetBool("Grounded", true);
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+            if (jump)
+            {
                 animator.SetBool("jump", true);
             }
             else
@@ -51,13 +68,16 @@ namespace Script.player
             }
         }
 
-        // FixedUpdate จะถูกเรียกทุกครั้งที่ทำการอัปเดตโดย Physics
-        void FixedUpdate()
+        private void MoveLeft()
         {
-            // ย้ายตัวละคร
-            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-            jump = false;
+            transform.Translate(Vector2.right * runSpeed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 180);
         }
 
+        private void MoveRight()
+        {
+            transform.Translate(Vector2.right * runSpeed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
+        }
     }
 }

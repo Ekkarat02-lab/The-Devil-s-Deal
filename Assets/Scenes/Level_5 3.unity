@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -44,7 +44,6 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -442,6 +438,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1034133419}
     m_Modifications:
     - target: {fileID: 1525282748258038295, guid: 9072735f901b97a419671183adc82511, type: 3}
+      propertyPath: isChasing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525282748258038295, guid: 9072735f901b97a419671183adc82511, type: 3}
       propertyPath: playertransform
       value: 
       objectReference: {fileID: 353589772}
@@ -461,6 +461,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 353589772}
+    - target: {fileID: 4961655031962260115, guid: 9072735f901b97a419671183adc82511, type: 3}
+      propertyPath: detectionRadius
+      value: 7.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8527770316180155848, guid: 9072735f901b97a419671183adc82511, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -561,6 +565,7 @@ TilemapCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181435213}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -584,7 +589,8 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -606,6 +612,8 @@ TilemapRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -30826,6 +30834,18 @@ PrefabInstance:
       propertyPath: gameOverManager
       value: 
       objectReference: {fileID: 2983273971234278621, guid: f5f3a269945b245499f83e81238f4f89, type: 3}
+    - target: {fileID: 2679890364271363097, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 421991603}
+    - target: {fileID: 2679890364271363097, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: runSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679890364271363097, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 421991600}
     - target: {fileID: 5875348210206316150, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: levelText
       value: 
@@ -30834,6 +30854,18 @@ PrefabInstance:
       propertyPath: experienceText
       value: 
       objectReference: {fileID: 229815459}
+    - target: {fileID: 6952289017057084408, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 1665827246}
+    - target: {fileID: 6952289017057084408, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 463702502}
+    - target: {fileID: 6952289017057084408, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+      propertyPath: gameOverManager
+      value: 
+      objectReference: {fileID: 1688371428}
     - target: {fileID: 7238058938813170670, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -31010,6 +31042,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74f8b06af265ee540b5eae3e2c54b3d8, type: 3}
+--- !u!114 &421991600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6510140769434174764, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+  m_PrefabInstance: {fileID: 296032936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554082d1429cc7c4f9cfd88795667bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &421991603 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6410601002826047006, guid: db6b6cdebb532c54b81c946dbf73609a, type: 3}
+  m_PrefabInstance: {fileID: 296032936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &463702502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8122509567033550621, guid: 07eaf41c07e119e4d8ab842a1f768f48, type: 3}
@@ -31532,6 +31580,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -31789,6 +31839,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 353589772}
+    - target: {fileID: 2874195487921109393, guid: fdb701f890254e94db54db0ca39e79bb, type: 3}
+      propertyPath: detectionRadius
+      value: 8.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3366908533772379928, guid: fdb701f890254e94db54db0ca39e79bb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -32029,6 +32083,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -32352,37 +32408,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b080399b0c361e4b826fc197becada4, type: 3}
---- !u!1 &1252199174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1252199175}
-  m_Layer: 0
-  m_Name: Item
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1252199175
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252199174}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.128036, y: -21.386524, z: 0.22675373}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1320348288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32694,6 +32719,8 @@ TilemapRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -36256,7 +36283,6 @@ SceneRoots:
   - {fileID: 229815458}
   - {fileID: 296032936}
   - {fileID: 1034133419}
-  - {fileID: 1252199175}
   - {fileID: 1438451748}
   - {fileID: 944741871}
   - {fileID: 1660165667}

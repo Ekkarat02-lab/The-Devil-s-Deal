@@ -1,15 +1,12 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Script.player
+public class EventOnAnim : MonoBehaviour
 {
-    public class EventOnAnim : MonoBehaviour
-    {
-        public UnityEvent eventOnAnimation;
+    public UnityEvent eventOnAnimation;
 
-        public void Trigger0()
-        {
-            eventOnAnimation.Invoke();
-        }
-    }
+    public void Trigger0()
+    {
+        eventOnAnimation.Invoke();
+    } 
 }

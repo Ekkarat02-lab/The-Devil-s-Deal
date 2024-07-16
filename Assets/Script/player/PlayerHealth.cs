@@ -1,15 +1,13 @@
 using System.Collections;
 using Script.ManagerGame;
-using Script.PlayerAttack;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Script.player
+namespace Script.Player
 {
     public class PlayerHealth : MonoBehaviour
     {
-        public static PlayerHealth instance;  // ตัวแปรสำหรับเก็บอินสแตนซ์เดียวของคลาส
-        
+        public static PlayerHealth instance;
 
         private Animator animator;
 
@@ -19,50 +17,36 @@ namespace Script.player
 
         [Header("Health")]
         public int initialHealth = 100;
-        public Text healthText;  // ข้อความบน Canvas
+        public Text healthText;
         public Slider healthSlider;
 
-        [Header("Coin And Gem")]
-        public int coins;
-        public int gems;
-
-        public Text coinsValue;
-        public Text gemsValue;
-
         private int currentHealth;
-        public static PlayerHealth playerHealth;  // ตัวแปรที่ไม่ได้ใช้ อาจจะลบได้
 
         [Header("GameOver")]
         public GameOver gameOverManager;
         private static readonly int Death = Animator.StringToHash("Death");
 
+        private bool deathAnimationPlayed = false;
+
         private void Awake()
         {
-            instance = this;  // กำหนดค่าให้กับตัวแปรอินสแตนซ์
-            coins = 0;
+            instance = this;
         }
 
         private void Start()
         {
-            // กำหนดค่าเริ่มต้นที่จำเป็น
             animator = GetComponent<Animator>();
             currentHealth = initialHealth;
-
-            // กำหนดค่า UI
             healthSlider.maxValue = initialHealth;
             healthSlider.value = initialHealth;
             UpdateHealthText();
         }
 
-        private bool deathAnimationPlayed = false;
-
         private void Update()
         {
-            // ตรวจสอบสุขภาพและทำการทำลายเมื่อสุขภาพน้อยกว่าหรือเท่ากับ 0
             if (currentHealth <= 0 && !deathAnimationPlayed)
             {
                 currentHealth = 0;
-                Debug.Log($"{currentHealth}");
                 DestroyPlayer();
                 gameOverManager.gameOver();
             }
@@ -74,103 +58,66 @@ namespace Script.player
 
         private void DestroyPlayer()
         {
-            // ทำลาย GameObject ของผู้เล่น
             animator.SetTrigger("Death");
             deathAnimationPlayed = true;
-
-            // รอ 1 วินาที ก่อนที่จะทำลาย GameObject
             StartCoroutine(WaitAndDestroy(1f));
         }
 
         private IEnumerator WaitAndDestroy(float waitTime)
         {
-            // รอเวลาที่กำหนด
             yield return new WaitForSeconds(waitTime);
-
-            // ปิด GameObject แทนที่จะทำลาย
             gameObject.SetActive(false);
         }
 
         private void UpdateHealthText()
         {
-            // อัปเดตข้อความสุขภาพที่แสดงบน Canvas
             healthText.text = "HEALTH: " + currentHealth;
         }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            // ตรวจสอบการชนกับออบเจกต์ที่ต้องการ
             if (other.gameObject.CompareTag("Health"))
             {
-                // เพิ่มสุขภาพเมื่อชนกับออบเจกต์ที่มี Tag "Health"
-                if (currentHealth < initialHealth)  // ตรวจสอบว่า currentHealth ยังไม่เต็ม
+                if (currentHealth < initialHealth)
                 {
-                    int healthToAdd = Mathf.Min(initialHealth - currentHealth, 50);  // คำนวณสุขภาพที่จะเพิ่ม
+                    int healthToAdd = Mathf.Min(initialHealth - currentHealth, 50);
                     currentHealth += healthToAdd;
                     Destroy(other.gameObject);
                 }
             }
             else if (other.gameObject.CompareTag("Enemy"))
             {
-                // ลดสุขภาพเมื่อชนกับศัตรู
                 TakeDamage(Random.Range(minDamageInEnemy, maxDamageInEnemy));
             }
             else if (other.gameObject.CompareTag("DeathZone"))
             {
-                // ตั้งค่าสุขภาพเป็น 0 เมื่อชนกับ "DeathZone"
                 currentHealth = 0;
             }
 
-            // อัปเดตข้อมูล UI
             UpdateHealthText();
         }
 
         private void TakeDamage(float damage)
         {
-            // ตรวจสอบว่า player ยังมีชีวิต
             if (currentHealth > 0)
             {
-                // ลดสุขภาพตามความเสียหายที่ระบุ
                 currentHealth = Mathf.Max(0, currentHealth - (int)damage);
 
-                // ตรวจสอบว่า player ยังมีชีวิต
                 if (currentHealth > 0)
                 {
-                    // อัปเดตข้อมูล UI
                     UpdateHealthText();
                 }
                 else
                 {
-                    // เรียกใช้ AddExperience เพื่อเพิ่มประสบการณ์ (experience)
                     ExperienceManager.Instance?.AddExperience((int)damage);
-                    // ทำลาย player หรือทำการ Game Over ตามที่คุณต้องการ
-                    // ...
                 }
-            }
-        }
-
-        public void AddCurrency(CurrencyPickup currency)
-        {
-            // เพิ่มค่าเงินหรือเพชรตามประเภทของออบเจกต์ที่รับ
-            if (currency.currentObject == CurrencyPickup.PickupObject.COIN)
-            {
-                coins += currency.pickupQuantity;
-                //coinsValue.text = "GOLD : " + coins.ToString();
-            }
-            else if (currency.currentObject == CurrencyPickup.PickupObject.GEM)
-            {
-                gems += currency.pickupQuantity;
-                gemsValue.text = "GEMS : " + gems.ToString();
             }
         }
 
         public void LevelUp()
         {
-            // เพิ่มค่าสุขภาพเมื่อ Level Up
             initialHealth += 50;
             currentHealth = initialHealth;
-
-            // อัปเดต UI สุขภาพ
             healthSlider.maxValue = initialHealth;
             healthSlider.value = initialHealth;
             UpdateHealthText();
